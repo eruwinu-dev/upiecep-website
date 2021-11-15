@@ -5,10 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "build:styles": "postcss src/tailwind.css -o src/styles.css",
-    "prebuild": "npm run build:styles",
-    "prestart": "npm run build:styles"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "12.0.3",
