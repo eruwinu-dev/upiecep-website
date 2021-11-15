@@ -10,7 +10,7 @@ const AboutSection = () => {
 			</span>
 			<div className="h-max grid lg:grid-cols-2 grid-cols-1 grid-flow-row gap-x-20 gap-y-5 px-20">
 				<div className="w-full h-full flex flex-col items-center justify-center lg:order-1">
-					<p className="break-words text-justify mb-4 ...">
+					<p className="break-words text-justify mb-4 leading-loose ...">
 						The Institute of Electronics Engineers of the
 						Philippines - UP Student Chapter (UP IECEP) is a
 						non-profit, non-political organization aimed at
@@ -18,7 +18,7 @@ const AboutSection = () => {
 						establish a common ground for BS ECE students in the
 						Electrical and Electronics Engineering Institute.
 					</p>
-					<p className="break-words text-justify">
+					<p className="break-words text-justify leading-loose">
 						UP IECEP has also been the link of ECE students of the
 						IECEP National Student Chapter which fosters the
 						communication and interaction of ECE students from
@@ -48,7 +48,7 @@ const AboutSection = () => {
 					</div>
 				</div>
 				<div className="w-full h-full flex flex-col items-center justify-center lg:order-4 order-3">
-					<p className="break-words text-justify ...">
+					<p className="break-words text-justify leading-loose ...">
 						The Institute of Electronics Engineers of the
 						Philippines - UP Student Chapter (UP IECEP) is a
 						non-profit, non-political organization aimed at
@@ -58,7 +58,7 @@ const AboutSection = () => {
 					</p>
 				</div>
 				<div className="w-full h-full flex flex-col items-center justify-center lg:order-6 order-5">
-					<p className="break-words text-justify ...">
+					<p className="break-words text-justify leading-loose ...">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 						sed do eiusmod tempor incididunt ut labore et dolore
 						magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -87,16 +87,16 @@ const AboutSection = () => {
 					<span className="w-full text-2xl text-center font-bold mb-10">
 						Vision
 					</span>
-					<p className="break-words text-justify lg:w-3/4 w-full">
+					<p className="w-full break-words text-justify lg:w-3/4 leading-loose">
 						To be an organization of humane, proficient, competitive
 						and virtuous professionals.
 					</p>
 				</div>
 				<div className="w-full h-full flex flex-col items-center justify-start ...">
-					<span className="w-full text-2xl text-center font-bold mb-10">
+					<span className="w-full text-2xl text-center font-bold mb-10 leading-loose">
 						Mission
 					</span>
-					<p className="break-words text-justify lg:w-3/4 w-full">
+					<p className="break-words text-justify lg:w-3/4 w-full leading-loose">
 						<span>
 							To uphold academic excellence, foster camaraderie,
 							and promote holistic development among members.

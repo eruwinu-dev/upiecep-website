@@ -1,5 +1,6 @@
 import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa"
 import Link from "next/link"
+import Image from "next/image"
 
 const Footer = () => {
 	return (
@@ -35,10 +36,37 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<span className="w-full text-sm text-center text-white bg-green-900 p-4">
-				Copyright © 2021-2022 Institute of Electronics Engineers of the
-				Philippines - UP Student Chapter (UP IECEP)
-			</span>
+			<div className=" box-content flex flex-row items-center justify-around bg-green-900 p-4">
+				<span className="text-sm text-center text-white">
+					Copyright © 2021-2022 Institute of Electronics Engineers of
+					the Philippines - UP Student Chapter (UP IECEP)
+				</span>
+				<div className="w-2/12 box-content flex flex-row items-center justify-around">
+					<div>
+						<Link href="https://nextjs.org/">
+							<a target="_blank">
+								<Image
+									src="/next-js.svg"
+									height={30}
+									width={60}
+								/>
+							</a>
+						</Link>
+					</div>
+
+					<div>
+						<Link href="https://tailwindcss.com/">
+							<a target="_blank">
+								<Image
+									src="/tailwind-css.svg"
+									height={30}
+									width={60}
+								/>
+							</a>
+						</Link>
+					</div>
+				</div>
+			</div>
 		</footer>
 	)
 }

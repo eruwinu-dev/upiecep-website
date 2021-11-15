@@ -3,7 +3,7 @@ import Image from "next/image"
 const CommitteeCard = ({ image, name, desc }) => {
 	return (
 		<div className="box-content flex flex-col items-center justify-center">
-			<div className="w-64 h-96 rounded-xl shadow-lg mb-6 border-10 hover: cursor-pointer">
+			<div className="w-64 h-96 rounded-xl shadow-lg mb-6 hover: cursor-pointer">
 				<div className="w-full rounded-t-xl">
 					<Image
 						src={`${`/booth.png` || image}`}

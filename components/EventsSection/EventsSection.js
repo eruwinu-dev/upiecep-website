@@ -10,7 +10,7 @@ const EventsSection = () => {
 			</span>
 			<div className="h-max grid lg:grid-cols-2 grid-cols-1 grid-flow-row gap-x-20 gap-y-5 px-20">
 				<div className="w-full h-full flex flex-col items-center justify-center lg:order-1 order-1">
-					<p className="break-words text-justify mb-4 ...">
+					<p className="break-words text-justify mb-4 leading-loose ...">
 						<span className="block text-2xl text-left font-bold mb-3">
 							Get Licensed
 						</span>
@@ -29,6 +29,7 @@ const EventsSection = () => {
 							width={600}
 							height={400}
 							alt="gl"
+							priority={true}
 						/>
 					</div>
 				</div>
@@ -44,8 +45,8 @@ const EventsSection = () => {
 					</div>
 				</div>
 				<div className="w-full h-full flex flex-col items-center justify-center lg:order-4 order-3">
-					<p className="break-words text-justify ...">
-						<span className="block text-2xl text-left font-bold mb-3">
+					<p className="break-words text-justify leading-loose ...">
+						<span className="block text-2xl text-left font-bold mb-3 ">
 							IECEP Cares
 						</span>
 						The charity event of UP IECEP, is an outreach program
@@ -54,7 +55,7 @@ const EventsSection = () => {
 					</p>
 				</div>
 				<div className="w-full h-full flex flex-col items-center justify-center lg:order-5 order-5">
-					<p className="break-words text-justify ...">
+					<p className="break-words text-justify leading-loose ...">
 						<span className="block text-2xl text-left font-bold mb-3">
 							Anniversary Week
 						</span>

@@ -49,7 +49,25 @@ const MembersSection = () => {
 							slidesToShow={3}
 							slidesToScroll={1}
 							dots={true}
-							arrows={false}>
+							arrows={false}
+							responsive={[
+								{
+									breakpoint: 1124,
+									settings: {
+										slidesToShow: 2,
+										slidesToScroll: 1,
+										infinite: true,
+									},
+								},
+								{
+									breakpoint: 691,
+									settings: {
+										slidesToShow: 1,
+										slidesToScroll: 1,
+										infinite: true,
+									},
+								},
+							]}>
 							{committees.map((committee, index) => (
 								<CommiteeCard
 									key={index}
@@ -62,14 +80,14 @@ const MembersSection = () => {
 					</div>
 				</div>
 			</div>
-			<div className="box-border flex flex-grow flex-col justify-start pt-20">
-				<span className="text-4xl text-center font-bold mb-3 ">
+			<div className="box-border flex flex-grow flex-col justify-start items-center pt-20">
+				<span className="text-4xl text-center font-bold mt-4 mb-4">
 					The Executive Committee
 				</span>
-				<span className="w-screen text-sm text-center font-semibold mb-10">
+				<span className="w-full text-sm text-center font-semibold mb-14">
 					A.Y. 2021-2022
 				</span>
-				<div className="h-max grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 grid-flow-row gap-10 px-20">
+				<div className="w-9/12 h-max grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 grid-flow-row gap-5 px-20">
 					{execomm.map((member, index) => (
 						<div
 							className="w-full h-full flex flex-col items-center justify-center"
@@ -77,8 +95,8 @@ const MembersSection = () => {
 							<div className="mb-4">
 								<Image
 									src="/profile.png"
-									height={144}
-									width={144}
+									height={200}
+									width={200}
 									alt={member.position}
 								/>
 							</div>

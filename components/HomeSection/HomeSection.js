@@ -1,5 +1,5 @@
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
+import "slick-carousel/slick/slick.css?raw"
+import "slick-carousel/slick/slick-theme.css?raw"
 import Slider from "react-slick"
 
 import Image from "next/image"
@@ -28,30 +28,44 @@ const HomeSection = () => {
 						slidesToScroll={1}
 						arrows={false}>
 						{carouselImages.map((image, index) => (
-							<Image
-								key={index}
-								src={image.src}
-								alt={image.alt}
-								title=""
-								width="100vw"
-								height="55vh"
-								layout="responsive"
-								objectFit="cover"
+							<div
 								className="filter contrast-100 brightness-50 rounded-t-xl"
-							/>
+								key={index}>
+								<Image
+									src={image.src}
+									alt={image.alt}
+									title=""
+									width="100vw"
+									height="55vh"
+									layout="responsive"
+								/>
+							</div>
 						))}
 					</Slider>
 				</div>
 			</div>
-			<div className="lg:flex hidden absolute flex-col justify-center items-center w-1/2 h-1/2 top-1/4 right-1/4 text-white">
-				<span className="text-6xl font-bold mb-4">We are UP IECEP</span>
-				<span className="text-xl font-semibold mb-2">
+			<div className="flex absolute flex-col justify-center items-center w-1/2 h-1/2 top-1/4 right-1/4 text-white">
+				<div className="rounded-full">
+					<Image
+						src="/logo.png"
+						layout="intrinsic"
+						width={144}
+						height={144}
+						alt="logo"
+					/>
+				</div>
+				<span className="lg:flex hidden text-6xl font-bold mb-4">
+					We are UP IECEP
+				</span>
+				<span className="lg:flex hidden text-xl font-semibold mb-2">
 					One Organization.
 				</span>
-				<span className="text-xl font-semibold mb-2">
+				<span className="lg:flex hidden text-xl font-semibold mb-2">
 					One Profession.
 				</span>
-				<span className="text-xl font-semibold mb-2">One Family.</span>
+				<span className="lg:flex hidden text-xl font-semibold mb-2">
+					One Family.
+				</span>
 			</div>
 		</div>
 	)
