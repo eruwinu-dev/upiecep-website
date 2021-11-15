@@ -7,7 +7,7 @@ const CommitteeCard = ({ image, name, desc }) => {
 				<div className="w-full rounded-t-xl">
 					<Image
 						src={`${`/booth.png` || image}`}
-						alt=""
+						alt={name}
 						title=""
 						width="100vw"
 						height="80vh"
