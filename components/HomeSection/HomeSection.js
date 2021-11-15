@@ -6,10 +6,10 @@ import Image from "next/image"
 
 const HomeSection = () => {
 	const carouselImages = [
-		{ src: "/home1.png", alt: "home1" },
-		{ src: "/home2.png", alt: "home2" },
-		{ src: "/home3.png", alt: "home3" },
-		{ src: "/home4.png", alt: "home4" },
+		{ src: "/home1.png", alt: "home1", priority: true },
+		{ src: "/home2.png", alt: "home2", priority: false },
+		{ src: "/home3.png", alt: "home3", priority: false },
+		{ src: "/home4.png", alt: "home4", priority: false },
 	]
 
 	return (
@@ -38,6 +38,7 @@ const HomeSection = () => {
 									width="100vw"
 									height="55vh"
 									layout="responsive"
+									priority={image.priority}
 								/>
 							</div>
 						))}

@@ -84,7 +84,17 @@ const AboutSection = () => {
 			</div>
 			<div className="h-max grid lg:grid-cols-2 grid-cols-1 grid-flow-row gap-x-10 gap-y-5 lg:px-40 px-20 pt-10 lg:pb-4 pb-10">
 				<div className="w-full h-full flex flex-col items-center justify-start...">
-					<span className="w-full text-2xl text-center font-bold mb-10">
+					<div className="">
+						<Image
+							src="/vision.png"
+							width={100}
+							height={100}
+							layout="intrinsic"
+							alt="vision"
+							className="rounded-full"
+						/>
+					</div>
+					<span className="w-full text-2xl text-center font-bold lg:mb-10 mb-5">
 						Vision
 					</span>
 					<p className="w-full break-words text-justify lg:w-3/4 leading-loose">
@@ -93,7 +103,17 @@ const AboutSection = () => {
 					</p>
 				</div>
 				<div className="w-full h-full flex flex-col items-center justify-start ...">
-					<span className="w-full text-2xl text-center font-bold mb-10 leading-loose">
+					<div className="">
+						<Image
+							src="/mission.png"
+							width={100}
+							height={100}
+							layout="intrinsic"
+							alt="mission"
+							className="rounded-full "
+						/>
+					</div>
+					<span className="w-full text-2xl text-center font-bold mb-5 leading-loose">
 						Mission
 					</span>
 					<p className="break-words text-justify lg:w-3/4 w-full leading-loose">

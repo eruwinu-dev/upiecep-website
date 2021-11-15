@@ -5,6 +5,8 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Slider from "react-slick"
 
+import JoinUsForm from "./JoinUsForm/JoinUsForm"
+
 const JoinUsSection = () => {
 	const joinImages = [
 		{ src: "/join1.png", alt: "join1" },
@@ -17,9 +19,9 @@ const JoinUsSection = () => {
 		<div
 			className="box-border h-max min-h-screen flex flex-grow flex-col pt-10 justify-start ..."
 			id="join">
-			<div className="h-max grid lg:grid-cols-2 grid-cols-1 grid-flow-row">
-				<div className="box-content relative w-full h-screen flex flex-col items-center justify-center bg-gray-300">
-					<div className=" w-full h-full mb:0">
+			<div className="grid lg:grid-cols-2 grid-cols-1 grid-flow-row">
+				<div className="box-content relative w-full flex flex-col items-center justify-start bg-gray-300 lg:order-1 order-2">
+					<div className="w-full mb:0">
 						<Slider
 							autoplay={true}
 							speed={2000}
@@ -44,13 +46,13 @@ const JoinUsSection = () => {
 							))}
 						</Slider>
 					</div>
-					<div className="w-full h-full flex flex-col items-center justify-start bg-gray-300 space-y-4 py-16">
-						<p className="w-full text-lg text-center px-10">
+					<div className="w-full flex flex-col items-center justify-start bg-gray-300 space-y-3 py-6">
+						<p className="w-full text-base text-center px-10">
 							Applications are open{" "}
 							<strong>every semester</strong> for bonafide BS ECE
 							students of University of the Philippines Diliman.
 						</p>
-						<p className="w-full text-lg text-center px-10">
+						<p className="w-full text-base text-center px-10">
 							For more information, contact inte@upiecep.org or
 							follow the official{" "}
 							<Link href="https://www.facebook.com/IECEPUPD/">
@@ -64,10 +66,11 @@ const JoinUsSection = () => {
 						</p>
 					</div>
 				</div>
-				<div className="w-full h-screen flex flex-col items-center justify-center bg-red-50">
-					<span className="w-full text-4xl text-center font-bold mb-10">
+				<div className="w-full h-screen flex flex-col items-center justify-center bg-red-50 lg:order-2 order-1">
+					<span className="w-full text-4xl text-center font-bold mb-4">
 						Join Us!
 					</span>
+					<JoinUsForm />
 				</div>
 			</div>
 		</div>

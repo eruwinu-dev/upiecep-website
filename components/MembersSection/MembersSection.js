@@ -87,7 +87,7 @@ const MembersSection = () => {
 				<span className="w-full text-sm text-center font-semibold mb-14">
 					A.Y. 2021-2022
 				</span>
-				<div className="w-9/12 h-max grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 grid-flow-row gap-5 px-20">
+				<div className="lg:w-9/12 w-11/12 h-max grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 grid-flow-row lg:gap-x-5 lg:gap-y-5 gap-x-20 gap-y-5">
 					{execomm.map((member, index) => (
 						<div
 							className="w-full h-full flex flex-col items-center justify-center"
