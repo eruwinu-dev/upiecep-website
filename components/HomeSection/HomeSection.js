@@ -29,6 +29,7 @@ const HomeSection = () => {
 						arrows={false}>
 						{carouselImages.map((image, index) => (
 							<Image
+								key={index}
 								src={image.src}
 								alt={image.alt}
 								title=""
