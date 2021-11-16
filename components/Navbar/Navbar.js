@@ -22,7 +22,7 @@ const Navbar = () => {
 
 	return (
 		<div>
-			<header className="fixed w-screen top-0 z-11">
+			<header className="fixed w-screen top-0 z-10">
 				<nav
 					className={`flex items-center flex-wrap bg-dark-maroon lg:py-0 py-1`}>
 					<Link href="#home">
