@@ -12,7 +12,7 @@ const JoinUsModal = ({ open, setOpen }) => {
 				className="fixed z-10 inset-0 overflow-y-auto"
 				initialFocus={cancelButtonRef}
 				onClose={setOpen}>
-				<div className="flex flex-col items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+				<div className="flex flex-col items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
 					<Transition.Child
 						as={Fragment}
 						enter="ease-out duration-300"
@@ -39,8 +39,8 @@ const JoinUsModal = ({ open, setOpen }) => {
 						leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
 						<div className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
 							<div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
-								<div className="flex flex-col items-center">
-									<div className="p-2 text-3xl text-white bg-green-600 rounded-full flex-flex-col items-center max-w">
+								<div className="sm:flex sm:flex-col sm:items-center sm:justify-center">
+									<div className="p-2 text-3xl text-white bg-green-600 rounded-full">
 										<FiCheck />
 									</div>
 									<div className="mt-3 sm:text-center">
@@ -58,7 +58,7 @@ const JoinUsModal = ({ open, setOpen }) => {
 									</div>
 								</div>
 							</div>
-							<div className="bg-gray-50 px-4 py-3 sm:px-6 w-full flex flex-row items-center justify-end">
+							<div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
 								<button
 									type="button"
 									className="font-bold py-1 px-4 rounded-lg focus:outline-none focus:shadow-outline border-solid border-2 border-gray-900 text-sm text-gray-900"
