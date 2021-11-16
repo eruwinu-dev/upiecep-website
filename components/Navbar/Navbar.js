@@ -24,7 +24,7 @@ const Navbar = () => {
 		<div>
 			<header className="fixed w-screen top-0 z-10">
 				<nav
-					className={`flex items-center flex-wrap bg-green-300 lg:py-0 py-1`}>
+					className={`flex items-center flex-wrap bg-dark-maroon lg:py-0 py-1`}>
 					<Link href="#home">
 						<a
 							className="inline-flex items-center mx-2 px-10"
@@ -35,7 +35,7 @@ const Navbar = () => {
 						</a>
 					</Link>
 					<button
-						className="inline-flex hover:bg-green-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none mx-8 p-1.5"
+						className="inline-flex hover:bg-darker-maroon border-b-0 rounded lg:hidden text-white ml-auto hover:text-white outline-none mx-8 p-1.5"
 						onClick={handleClick}>
 						<svg
 							className="w-6 h-6"
@@ -60,7 +60,7 @@ const Navbar = () => {
 								return (
 									<Link href={navLink.link} key={index}>
 										<a
-											className=" lg:inline-flex lg:w-auto w-full px-4 py-3 text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white"
+											className=" lg:inline-flex lg:w-auto w-full lg:px-4 px-12 py-3 text-white font-bold items-center justify-center hover:bg-darker-maroon"
 											onClick={handleClickNav}>
 											<span className="uppercase">
 												{navLink.text}

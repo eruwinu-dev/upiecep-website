@@ -8,8 +8,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.2",
+    "@supabase/supabase-js": "^1.28.0",
     "@svgr/webpack": "^5.5.0",
-    "formik": "^2.2.9",
     "next": "12.0.3",
     "nth-check": "^2.0.1",
     "postcss-cli": "^9.0.2",
@@ -17,8 +18,7 @@
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
     "react-slick": "^0.28.1",
-    "slick-carousel": "^1.8.1",
-    "yup": "^0.32.11"
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",

@@ -20,7 +20,7 @@ const JoinUsSection = () => {
 			className="box-border h-max min-h-screen flex flex-grow flex-col pt-10 justify-start ..."
 			id="join">
 			<div className="grid lg:grid-cols-2 grid-cols-1 grid-flow-row">
-				<div className="box-content relative w-full flex flex-col items-center justify-start bg-gray-300 lg:order-1 order-2">
+				<div className="box-content relative w-full flex flex-col items-center justify-start bg-off-white lg:order-1 order-2">
 					<div className="w-full mb:0">
 						<Slider
 							autoplay={true}
@@ -46,7 +46,7 @@ const JoinUsSection = () => {
 							))}
 						</Slider>
 					</div>
-					<div className="w-full flex flex-col items-center justify-start bg-gray-300 space-y-3 py-6">
+					<div className="w-full flex flex-col items-center justify-start bg-off-white space-y-3 py-6">
 						<p className="w-full text-base text-center px-10">
 							Applications are open{" "}
 							<strong>every semester</strong> for bonafide BS ECE
@@ -66,7 +66,7 @@ const JoinUsSection = () => {
 						</p>
 					</div>
 				</div>
-				<div className="w-full h-screen flex flex-col items-center justify-center bg-red-50 lg:order-2 order-1">
+				<div className="w-full h-screen flex flex-col items-center justify-center bg-light-pink lg:order-2 order-1">
 					<span className="w-full text-4xl text-center font-bold mb-4">
 						Join Us!
 					</span>

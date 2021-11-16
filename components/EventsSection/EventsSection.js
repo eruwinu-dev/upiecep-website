@@ -3,7 +3,7 @@ import Image from "next/image"
 const EventsSection = () => {
 	return (
 		<div
-			className="box-border h-max min-h-screen flex flex-grow flex-col justify-start pt-20 bg-gray-100 lg:pb-4 pb-10 ..."
+			className="box-border h-max min-h-screen flex flex-grow flex-col justify-start pt-20 bg-off-white lg:pb-4 pb-10 ..."
 			id="events">
 			<span className="w-full text-4xl text-center font-bold mb-10">
 				Events

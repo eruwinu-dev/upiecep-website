@@ -36,7 +36,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className=" box-content flex flex-row items-center justify-around bg-green-900 p-4">
+			<div className=" box-content flex flex-row items-center justify-around bg-dark-maroon p-4">
 				<span className="text-sm text-center text-white">
 					Copyright © 2021-2022 Institute of Electronics Engineers of
 					the Philippines - UP Student Chapter (UP IECEP)
