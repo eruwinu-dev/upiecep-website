@@ -91,9 +91,8 @@ const JoinUsForm = () => {
 	return (
 		<div className="w-full max-w-lg">
 			<div
-				method="post"
 				noValidate
-				className="rounded px-8 pt-6 pb-8 mb-4">
+				className="rounded px-8 pt-6 lg:pb-8 pb-0 lg:mb-4 mb-0">
 				<div className="mb-2 space-y-1">
 					<label className="block text-gray-700 text-md font-bold">
 						Full Name
@@ -151,7 +150,7 @@ const JoinUsForm = () => {
 						placeholder=""
 					/>
 				</div>
-				<div className="flex flex-row items-center mb-4">
+				<div className="flex flex-row items-center lg:mb-4 mb-2">
 					<label className="w-1/6 flex flex-col items-center">
 						<input
 							className="leading-tight"
@@ -161,7 +160,7 @@ const JoinUsForm = () => {
 						/>
 					</label>
 					<label className="w-5/6 flex flex-col items-start text-gray-700 font-bold space-y-1">
-						<span className="text-sm">
+						<span className="lg:text-sm text-xs">
 							By answering this form, I understand that the
 							information provided in this form will be utilized
 							by UP IECEP pursuant to the provisions of the Data
@@ -176,7 +175,7 @@ const JoinUsForm = () => {
 						</p>
 					</label>
 				</div>
-				<div className="mb-2">
+				<div className="lg:mb-2 mb-0">
 					<button
 						className={`${
 							loading

@@ -33,7 +33,7 @@ const MembersSection = () => {
 
 	return (
 		<div
-			className="box-content flex flex-grow flex-col justify-center pt-20 pb-5"
+			className="box-content flex flex-grow flex-col justify-center lg:pt-20 pt-14 pb-5"
 			id="members">
 			<div className="box-border flex flex-col justify-start items-center">
 				<span className="text-4xl text-center font-bold mb-10">
@@ -80,7 +80,7 @@ const MembersSection = () => {
 					</div>
 				</div>
 			</div>
-			<div className="box-border flex flex-grow flex-col justify-start items-center pt-20">
+			<div className="box-border flex flex-grow flex-col justify-start items-center lg:pt-20 pt-14">
 				<span className="text-4xl text-center font-bold mt-4 mb-4">
 					The Executive Committee
 				</span>

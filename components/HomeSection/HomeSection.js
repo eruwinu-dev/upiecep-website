@@ -45,7 +45,7 @@ const HomeSection = () => {
 					</Slider>
 				</div>
 			</div>
-			<div className="flex absolute flex-col justify-center items-center w-1/2 h-1/2 top-1/4 right-1/4 text-white">
+			<div className="flex absolute flex-col justify-center items-center w-1/2 h-1/2 top-1/4 right-1/4 text-white lg:pt-0 pt-7">
 				<div className="rounded-full">
 					<Image
 						src="/logo.png"

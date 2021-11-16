@@ -17,7 +17,7 @@ const JoinUsSection = () => {
 
 	return (
 		<div
-			className="box-border h-max min-h-screen flex flex-grow flex-col pt-10 justify-start ..."
+			className="box-border h-max min-h-screen flex flex-grow flex-col lg:pt-10 pt-4 justify-start ..."
 			id="join">
 			<div className="grid lg:grid-cols-2 grid-cols-1 grid-flow-row">
 				<div className="box-content relative w-full flex flex-col items-center justify-start bg-off-white lg:order-1 order-2">
@@ -46,13 +46,13 @@ const JoinUsSection = () => {
 							))}
 						</Slider>
 					</div>
-					<div className="w-full flex flex-col items-center justify-start bg-off-white space-y-3 py-6">
-						<p className="w-full text-base text-center px-10">
+					<div className=" bg-off-white h-full p-6 flex flex-col items-center justify-center lg:space-y-4 space-y-0">
+						<p className="w-full text-base text-center">
 							Applications are open{" "}
 							<strong>every semester</strong> for bonafide BS ECE
 							students of University of the Philippines Diliman.
 						</p>
-						<p className="w-full text-base text-center px-10">
+						<p className="w-full text-base text-center">
 							For more information, contact inte@upiecep.org or
 							follow the official{" "}
 							<Link href="https://www.facebook.com/IECEPUPD/">
@@ -67,7 +67,7 @@ const JoinUsSection = () => {
 					</div>
 				</div>
 				<div className="w-full h-screen flex flex-col items-center justify-center bg-light-pink lg:order-2 order-1">
-					<span className="w-full text-4xl text-center font-bold mb-4">
+					<span className="w-full lg:text-4xl text-2xl text-center font-bold lg:mb-4 mb-2">
 						Join Us!
 					</span>
 					<JoinUsForm />
