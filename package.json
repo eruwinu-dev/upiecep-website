@@ -5,13 +5,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
+    
   },
   "dependencies": {
     "@headlessui/react": "^1.4.2",
     "@supabase/supabase-js": "^1.28.0",
     "@svgr/webpack": "^5.5.0",
     "next": "12.0.3",
+    "next-sitemap": "^1.6.203",
     "nth-check": "^2.0.1",
     "postcss-cli": "^9.0.2",
     "react": "17.0.2",
