@@ -24,6 +24,13 @@ export default function Home() {
 					key="sitelinks"
 				/>
 				<meta name="google" content="notranslate" key="notranslate" />
+				<meta name="description" content="UP IECEP Webpage." />
+				<meta name="robots" content="index, follow" />
+				<meta
+					name="viewport"
+					content="width=device-width, initial-scale"
+				/>
+				<meta property="og:title" content="UP IECEP Webpage" />
 				<link rel="icon" href="/logo.ico" />
 			</Head>
 			<Navbar />
