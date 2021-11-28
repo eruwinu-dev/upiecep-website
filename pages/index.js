@@ -23,11 +23,7 @@ export default function Home() {
 					name="description"
 					content="UP IECEP Webpage. UP IECEP, Institute of Electronics Engineers of the Philippines Diliman"
 				/>
-				<meta name="robots" content="index, follow" />
-				<meta
-					name="viewport"
-					content="width=device-width, initial-scale"
-				/>
+				<meta name="robots" content="index, follow" />				
 				<meta property="og:title" content="UP IECEP Webpage" />
 				<link rel="icon" href="/logo.ico" />
 			</Head>
